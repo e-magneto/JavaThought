@@ -23,9 +23,9 @@ public class ChocolateFeast {
 		Scanner in = new Scanner(System.in);
 		int numberOfTests= in.nextInt();
 		for(int i=0; i<numberOfTests; i++){
-			int money= (int)in.nextInt();
-			int price= (int)in.nextInt();
-			int wrapper= (int)in.nextInt();
+			int money= in.nextInt();
+			int price= in.nextInt();
+			int wrapper= in.nextInt();
 			long answer=chocoCount(money, price, wrapper);
 			System.out.println(answer);
 		}
